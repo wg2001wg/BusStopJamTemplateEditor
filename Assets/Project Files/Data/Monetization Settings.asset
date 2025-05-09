@@ -57,8 +57,8 @@ MonoBehaviour:
   verboseLogging: 0
   debugMode: 0
   testDevices: []
-  privacyLink: 
-  termsOfUseLink: 
+  privacyLink: http://ec2-54-206-102-174.ap-southeast-2.compute.amazonaws.com/PrivacyPolicy/
+  termsOfUseLink: http://ec2-54-206-102-174.ap-southeast-2.compute.amazonaws.com/TermsOfUse/
 --- !u!114 &3111992517784110776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -88,17 +88,17 @@ MonoBehaviour:
   isIDFAEnabled: 0
   trackingDescription: Your data will be used to deliver personalized ads to you.
   adMobContainer:
-    androidAppId: 
+    androidAppId: ca-app-pub-6544561925922650~1690789910
     iosAppId: 
-    androidBannerID: ca-app-pub-3940256099942544/6300978111
-    iOSBannerID: ca-app-pub-3940256099942544/2934735716
-    androidInterstitialID: ca-app-pub-3940256099942544/1033173712
-    iOSInterstitialID: ca-app-pub-3940256099942544/4411468910
-    androidRewardedVideoID: ca-app-pub-3940256099942544/5224354917
-    iOSRewardedVideoID: ca-app-pub-3940256099942544/1712485313
-    useAppOpenAd: 0
-    androidAppOpenAdID: ca-app-pub-3940256099942544/9257395921
-    iOSAppOpenAdID: ca-app-pub-3940256099942544/5575463023
+    androidBannerID: ca-app-pub-6544561925922650/8982122423
+    iOSBannerID: 
+    androidInterstitialID: ca-app-pub-6544561925922650/6355959081
+    iOSInterstitialID: 
+    androidRewardedVideoID: ca-app-pub-6544561925922650/9962956201
+    iOSRewardedVideoID: 
+    useAppOpenAd: 1
+    androidAppOpenAdID: ca-app-pub-6544561925922650/5277846981
+    iOSAppOpenAdID: 
     appOpenAdExpirationHoursTime: 4
     bannerType: 0
     bannerPosition: 0
