@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8915973866832862716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f28faf74e3de2b4bb5f8724582e5ceb, type: 3}
+  m_Name: IAP Settings
+  m_EditorClassIdentifier: 
+  useFakeStore: 0
+  fakeStoreMode: 0
+  storeItems:
+  - androidID: com.example.game.noads
+    iOSID: com.example.game.noads
+    productKeyType: 0
+    productType: 1
+  - androidID: com.example.game.starterpack
+    iOSID: com.example.game.starterpack
+    productKeyType: 1
+    productType: 1
+  - androidID: com.example.game.goldsmall
+    iOSID: com.example.game.goldsmall
+    productKeyType: 2
+    productType: 0
+  - androidID: com.example.game.goldmed
+    iOSID: com.example.game.goldmed
+    productKeyType: 3
+    productType: 0
+  - androidID: com.example.game.goldbig
+    iOSID: com.example.game.goldbig
+    productKeyType: 4
+    productType: 0
+  - androidID: com.example.game.pupack
+    iOSID: com.example.game.pupack
+    productKeyType: 5
+    productType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34b796d4f76ccb5488f711694f61a821, type: 3}
+  m_Name: Monetization Settings
+  m_EditorClassIdentifier: 
+  iapSettings: {fileID: -8915973866832862716}
+  adsSettings: {fileID: 3111992517784110776}
+  isModuleActive: 1
+  verboseLogging: 0
+  debugMode: 0
+  testDevices: []
+  privacyLink: 
+  termsOfUseLink: 
+--- !u!114 &3111992517784110776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ddb41bf72d53a48a6bdc593d706f94, type: 3}
+  m_Name: Ads Settings
+  m_EditorClassIdentifier: 
+  bannerType: 2
+  interstitialType: 2
+  rewardedVideoType: 2
+  loadAdsOnStart: 1
+  interstitialFirstStartDelay: 40
+  interstitialStartDelay: 40
+  interstitialShowingDelay: 30
+  autoShowInterstitial: 0
+  loadingAdDuration: 0
+  loadingMessage: Ad is loading..
+  isUMPEnabled: 1
+  umpTagForUnderAgeOfConsent: 0
+  umpDebugMode: 0
+  umpDebugGeography: 0
+  isIDFAEnabled: 0
+  trackingDescription: Your data will be used to deliver personalized ads to you.
+  adMobContainer:
+    androidAppId: 
+    iosAppId: 
+    androidBannerID: ca-app-pub-3940256099942544/6300978111
+    iOSBannerID: ca-app-pub-3940256099942544/2934735716
+    androidInterstitialID: ca-app-pub-3940256099942544/1033173712
+    iOSInterstitialID: ca-app-pub-3940256099942544/4411468910
+    androidRewardedVideoID: ca-app-pub-3940256099942544/5224354917
+    iOSRewardedVideoID: ca-app-pub-3940256099942544/1712485313
+    useAppOpenAd: 0
+    androidAppOpenAdID: ca-app-pub-3940256099942544/9257395921
+    iOSAppOpenAdID: ca-app-pub-3940256099942544/5575463023
+    appOpenAdExpirationHoursTime: 4
+    bannerType: 0
+    bannerPosition: 0
+  unityAdsContainer:
+    androidAppID: 1234567
+    iOSAppID: 1234567
+    androidBannerID: banner
+    iOSBannerID: banner
+    androidInterstitialID: video
+    iOSInterstitialID: video
+    androidRewardedVideoID: rewardedVideo
+    iOSRewardedVideoID: rewardedVideo
+    bannerPosition: 4
+  levelPlayContainer:
+    androidAppKey: 85460dcd
+    iOSAppKey: 8545d445
+    androidBannerID: thnfvcsog13bhn08
+    iOSBannerID: iep3rxsyp9na3rw8
+    androidInterstitialID: aeyqi3vqlv6o8sh9
+    iOSInterstitialID: wmgt0712uuux8ju4
+    bannerPosition: 0
+    bannerType: 0
+  dummyContainer:
+    bannerPosition: 0

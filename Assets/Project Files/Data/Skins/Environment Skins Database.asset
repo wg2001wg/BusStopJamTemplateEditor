@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5fa2d798ed105419af6d952459deba, type: 3}
+  m_Name: Environment Skins Database
+  m_EditorClassIdentifier: 
+  skins:
+  - id: 972b267e-a309-4922-8cca-53d6d42360dd
+    previewSprite: {fileID: 21300000, guid: 9dc855487e3518647b017180aafbc08a, type: 3}
+    environmentPrefab: {fileID: 3147117125193525667, guid: 2190728cecee97b4fbc0c933f5e45f3d, type: 3}
+    tileData:
+      cellPrefab: {fileID: 4150842682482275077, guid: 9b4f93c00b00780499a3012848eb653c, type: 3}
+      borderPrefab: {fileID: 1326808061552700711, guid: 82f88bf32c19a274da2cf3bc36453853, type: 3}
+      innerCornerPrefab: {fileID: 3803260535722843816, guid: 07c89de3acc67be4f87c38ac2a99baba, type: 3}
+      outerCornerPrefab: {fileID: 8119848913884902046, guid: c0da6d484f32d8d4a8695ea613db9ccc, type: 3}
+  - id: 77dcb3b5-d0f8-4272-9b07-25bea6e9b57f
+    previewSprite: {fileID: 21300000, guid: 3decd955aa4f63844901ef3b15ae32b4, type: 3}
+    environmentPrefab: {fileID: 3147117125193525667, guid: 4c541b1f966de2f49aed25c7cd522689, type: 3}
+    tileData:
+      cellPrefab: {fileID: 4150842682482275077, guid: 74156d33d7958c94989122556976ff9e, type: 3}
+      borderPrefab: {fileID: 1326808061552700711, guid: fb83ccec90ba5d849991d946785df3e5, type: 3}
+      innerCornerPrefab: {fileID: 3803260535722843816, guid: 329fadb91cdd1e8468935edbba3ceba8, type: 3}
+      outerCornerPrefab: {fileID: 8119848913884902046, guid: 3fb326f5a32eb9041ad584f5cf99cc66, type: 3}

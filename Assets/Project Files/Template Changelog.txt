@@ -1,0 +1,61 @@
+v1.1.3
+Template: Support of both unity 2022.3 and unity 6
+
+v1.1.2
+Template: Fixed bug with lives system
+Template: Main Lives System script renamed LivesManager -> LivesSystem
+
+v1.1.1
+Template: UI Store offers prefabs moved to Prefabs/UI Store/Offers
+Template: Scene unload fix
+
+v1.1.0
+Template: Added Untiy 6 support
+Defines: Fixed an issue with defines recalculation during the first import
+Defines: Reworked the define disable check. Instead of checking the file path, the system now verifies if the script type exists
+Core: Fixed Promotion window image size on 4k displays
+Core: Added the StaticUnloader script. It allows unloading static variables to support fast game launches (Editor only)
+Tween: Reworked the Tween script structure
+Tween: Added static unload functionality for Tween
+Tween: Reworked NextFrame tween logic
+Save: Removed unused variable
+Core: The script names have been changed to use singular instead of plural (e.g., CurrenciesController is now CurrencyController)
+Currency: Reworked CurrencyController.GetCurrency method (editor only)
+Monetization: A full-screen loading message has been added before displaying interstitial and rewarded video ads
+
+v1.0.7
+Core: Monetization activation toggle fix
+Core: Added CoreSettings scriptable object
+Core: Added Core and CoreEditor static classes with useful data
+Template: Fixed a bug where characters could be clicked through UI panels
+Template: Fixed a bug with scene reloading
+Template: Added custom fields support to the Level Editor
+
+v1.0.6
+Bug fix
+
+v1.0.5
+Added lock state for Power Ups
+Added Power Ups unlock panel
+Added Rower Ups rewarded video purchase option
+Added new Haptic system
+Fixed bug with character click during the movement
+Reworked Skins System
+Reworked IAP store (added Reward system)
+Added support of main scene unload\reload (now template can be used as Mini Game)
+
+v1.0.4
+Outline depth offset bugfix
+
+v1.0.3
+Import problems fix
+
+v1.0.2
+Fixed UI number display bug
+Fixed tutorial
+
+v1.0.1
+Stability improvement
+
+v1.0.0
+Release

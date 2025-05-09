@@ -1,0 +1,1 @@
+You are allowed to use this project template in your commercial game. You are not allowed to distribute or resell the source code, assets and files contained in this package. You are allowed to distribute or sell the compiled executable created using this. Refer to the Unity Asset Store EULA for reference: https://unity3d.com/legal/as_terms
