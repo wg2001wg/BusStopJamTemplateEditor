@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 5490409678138228516}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -1358,7 +1358,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 751644486198882825, guid: aea0e9ced9b40994d91761acd150a982, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.0013745656
+      value: -0.0025926095
       objectReference: {fileID: 0}
     - target: {fileID: 1278244381842765976, guid: aea0e9ced9b40994d91761acd150a982, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1418,7 +1418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5459597698203734084, guid: aea0e9ced9b40994d91761acd150a982, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -299.12012
+      value: -299.1201
       objectReference: {fileID: 0}
     - target: {fileID: 5607912274550596251, guid: aea0e9ced9b40994d91761acd150a982, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1824,8 +1824,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &5490409678138228517
 Transform:
   m_ObjectHideFlags: 0
