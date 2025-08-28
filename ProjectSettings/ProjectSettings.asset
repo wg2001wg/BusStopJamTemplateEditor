@@ -140,7 +140,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.5
+  bundleVersion: 1.0.6
   preloadedAssets:
   - {fileID: 11400000, guid: 97736d9a5ad1861479e34b45f1786682, type: 2}
   - {fileID: -944628639613478452, guid: d619bd23d9a14ea499e7df8deea459b4, type: 3}
@@ -175,7 +175,7 @@ PlayerSettings:
     iPhone: 2
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 5
+  AndroidBundleVersionCode: 6
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 36
   AndroidPreferredInstallLocation: 1
@@ -269,7 +269,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 2
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: "D:/\u738B\u4E16\u5CF0/user.keystore"
+  AndroidKeystoreName: D:/Other/keystore/user.keystore
   AndroidKeyaliasName: yujun.gao
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidEnableArm64MTE: 0
