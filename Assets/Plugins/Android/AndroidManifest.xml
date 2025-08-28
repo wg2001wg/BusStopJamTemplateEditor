@@ -2,6 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.VIBRATE" />
     <application>
         <!--Used when Application Entry is set to Activity, otherwise remove this activity block-->
         <activity android:name="com.unity3d.player.UnityPlayerActivity"
@@ -13,8 +14,7 @@
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
         </activity>
         <!--Used when Application Entry is set to GameActivity, otherwise remove this activity block-->
-        <!--
-		<activity android:name="com.unity3d.player.UnityPlayerGameActivity"
+        <activity android:name="com.unity3d.player.UnityPlayerGameActivity"
                   android:theme="@style/BaseUnityGameActivityTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +23,5 @@
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
             <meta-data android:name="android.app.lib_name" android:value="game" />
         </activity>
-		-->
     </application>
 </manifest>
